@@ -1,0 +1,17 @@
+# Python / Backend
+backend/venv/
+backend/__pycache__/
+*.pyc
+.env
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.DS_Store
+
+# Machine Learning Models
+# GitHub blocks files over 100MB. If your .keras models are larger than 100MB, 
+# keep this uncommented so they don't crash your upload.
+chroma/*.keras
