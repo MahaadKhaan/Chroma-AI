@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Chroma AI | Next-Gen Image Colorization",
   description: "Advanced AI image colorization with multi-model architecture.",
+  verification: {
+    google: "kF5lAbSR5U1DEFMN9Eq-jbAhnI2qwzpDM8P8F3BIFVA", 
+  },
 };
 
 export default function RootLayout({
